@@ -27,8 +27,10 @@
         }
         h1 {
             width: 17vw;
-            img {
+            svg {
                 width: 100%;
+                fill: #ebebeb;
+                aspect-ratio: 305/390;
             }
         }
         .itemTime {

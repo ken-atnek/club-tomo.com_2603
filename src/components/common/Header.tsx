@@ -2,7 +2,7 @@
  * クラブ智 HEADER
  * URL: src/components/common/Header.tsx
  * Created: 2026-03-23
- * Last updated: 2026-03-23
+ * Last updated: 2026-03-24
  * ======================================= */
 import Image from 'next/image';
 import styles from './Header.module.scss';
@@ -13,12 +13,10 @@ const Header = () => {
     <header className={styles.containerHeader}>
       <article>
         <h1>
-          <Image
-            src="/images/logo.svg"
-            alt="クラブ智"
-            width={232}
-            height={298}
-          />
+          <svg role="img" aria-labelledby="logoTitle">
+            <title id="logoTitle">クラブ智</title>
+            <use href="#svg_logo" />
+          </svg>
         </h1>
         <span className={styles.itemTime}>
           <i>open</i>20:00〜
