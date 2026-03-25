@@ -7,9 +7,9 @@
 @use "./foundation/svg" as *;
 @use "./foundation/ui" as *;
 
-html {
-    scroll-behavior: auto;
-}
+// html {
+//     scroll-behavior: auto;
+// }
 body {
     @include Serif;
 

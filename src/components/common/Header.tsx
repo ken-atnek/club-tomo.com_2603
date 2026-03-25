@@ -10,7 +10,7 @@ import ExternalLink from '@/components/common/ExternalLink';
 
 const Header = () => {
   return (
-    <header className={styles.containerHeader}>
+    <header className={styles.containerHeader} id="ContainerHeader">
       <article>
         <h1>
           <svg role="img" aria-labelledby="logoTitle">
@@ -32,12 +32,12 @@ const Header = () => {
         </ExternalLink>
 
         <nav>
-          <a href="#">TOP</a>
-          <a href="#">ご挨拶</a>
-          <a href="#">システム</a>
-          <a href="#">お部屋紹介</a>
-          <a href="#">求人</a>
-          <a href="#">アクセス</a>
+          <a href="#ContainerHeader">TOP</a>
+          <a href="#ContainerGreeting">ご挨拶</a>
+          <a href="#ContainerSystem">システム</a>
+          <a href="#ContainerRoomInfo">お部屋紹介</a>
+          <a href="#ContainerRecruit">求人</a>
+          <a href="#ContainerAccess">アクセス</a>
         </nav>
       </article>
     </header>

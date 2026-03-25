@@ -7,6 +7,11 @@
 
 import type { Metadata } from 'next';
 import { isRealProduction } from '@/lib/env';
+import ContainerGreeting from '@/components/Top/ContainerGreeting';
+import ContainerSystem from '@/components/Top/ContainerSystem';
+import ContainerRoomInfo from '@/components/Top/ContainerRoomInfo';
+import ContainerAccess from '@/components/Top/ContainerAccess';
+import ContainerRecruit from '@/components/Top/ContainerRecruit';
 
 export const generateMetadata = (): Metadata => {
   return {
@@ -17,5 +22,13 @@ export const generateMetadata = (): Metadata => {
   };
 };
 export default function Home() {
-  return <>123456</>;
+  return (
+    <>
+      <ContainerGreeting />
+      <ContainerSystem />
+      <ContainerRoomInfo />
+      <ContainerRecruit />
+      <ContainerAccess />
+    </>
+  );
 }

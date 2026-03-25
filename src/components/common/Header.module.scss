@@ -6,6 +6,16 @@
     aspect-ratio: $section-aspect;
     background: url(/images/bg-header.webp) no-repeat center center/cover;
     display: flex;
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 52vw;
+        background: url(/images/corner-object.webp) no-repeat center center /
+            cover;
+        aspect-ratio: 980/653;
+    }
     article {
         color: $base-white;
         width: fit-content;

@@ -49,12 +49,12 @@ const Footer = () => {
             </ExternalLink>
           </div>
           <nav>
-            <a href="#">TOP</a>
-            <a href="#">ご挨拶</a>
-            <a href="#">システム</a>
-            <a href="#">お部屋紹介</a>
-            <a href="#">求人</a>
-            <a href="#">アクセス</a>
+            <a href="#ContainerHeader">TOP</a>
+            <a href="#ContainerGreeting">ご挨拶</a>
+            <a href="#ContainerSystem">システム</a>
+            <a href="#ContainerRoomInfo">お部屋紹介</a>
+            <a href="#ContainerRecruit">求人</a>
+            <a href="#ContainerAccess">アクセス</a>
           </nav>
           <hr />
           <div className={styles.copyright}>(C) 2018. クラブ智</div>
