@@ -6,7 +6,6 @@ $main-white: #ebebeb;
 $dark-brown: #391900;
 $light-brown: #c18d65;
 $main-red: #bb3d30;
-
 $main-black: #000;
 $base-white: #fffbf4;
 $bg-white: #fef4e5;
@@ -23,6 +22,7 @@ $color-orange: "f29400";
 :root {
     /* base */
     --color-white-100: #ebebeb;
+
     /* semantic */
     --main-white: var(--color-white-100);
 }

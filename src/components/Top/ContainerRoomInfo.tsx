@@ -10,6 +10,8 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/react-splide/css';
 import styles from '@/styles/PageTop.module.scss';
 
 const rooms = [
@@ -28,6 +30,7 @@ export default function ContainerRoomInfo() {
 
   return (
     <section className={styles.containerRoomInfo} id="ContainerRoomInfo">
+      {/* PC レイアウト */}
       <div className={styles.roomInfoImage}>
         {rooms.map((room, index) => (
           <Image
@@ -58,6 +61,39 @@ export default function ContainerRoomInfo() {
           ))}
         </nav>
       </article>
+
+      {/* SP: Splide スライダー */}
+      <div className={styles.roomInfoSp}>
+        <Splide
+          options={{
+            type: 'loop',
+            perPage: 1,
+            pagination: true,
+            arrows: false,
+          }}
+        >
+          {rooms.map((room, index) => (
+            <SplideSlide key={index}>
+              <div className={styles.roomSlide}>
+                <Image
+                  src={room.image}
+                  alt={room.name}
+                  fill
+                  style={{ objectFit: 'cover' }}
+                  unoptimized
+                />
+                <span className={styles.roomSlideName}>
+                  <i>ROOM: </i>
+                  {room.name}
+                </span>
+              </div>
+            </SplideSlide>
+          ))}
+        </Splide>
+        <div className={styles.roomInfoSpTitle}>
+          <h2>お部屋紹介</h2>
+        </div>
+      </div>
     </section>
   );
 }

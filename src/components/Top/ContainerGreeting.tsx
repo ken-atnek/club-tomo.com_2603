@@ -29,7 +29,9 @@ export default function ContainerGreeting() {
         </h2>
         <h3>ご挨拶</h3>
         <p>
-          平素より格別のご愛顧を賜り、誠にありがとうございます。
+          平素より格別のご愛顧を賜り、
+          <br className="sp" />
+          誠にありがとうございます。
           <br />
           <br />
           クラブ智にお越し頂いた皆様が

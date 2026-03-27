@@ -1,7 +1,6 @@
 /* =================================
  * ホバー処理
  * ------------------------------ */
-
 @mixin hover {
     @media (hover: hover) {
         &:where(:any-link, :enabled, summary):hover {

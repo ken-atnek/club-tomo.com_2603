@@ -19,7 +19,9 @@ export default function ContainerRecruit() {
         <p className={styles.announce}>
           ナイトワークデビューさん大歓迎！
           <br />
-          お仕事はとってもカンタン♪ママのお手伝い感覚でOKです◎
+          お仕事はとってもカンタン♪
+          <br className="sp" />
+          ママのお手伝い感覚でOKです◎
           <br />
           働きやすさにこだわった良環境でゆっくりお仕事を覚えられるので完全初心者さんも安心してくださいね！
         </p>
@@ -46,7 +48,9 @@ export default function ContainerRecruit() {
           <div className={styles.wrapRight}>
             <div className={styles.itemHead}>
               <span>
-                本入店時給：最低<em>30,000</em>円〜最大<em>8,000</em>円
+                本入店時給： <br className="sp" />
+                最低
+                <em>30,000</em>円〜最大<em>8,000</em>円
               </span>
               <span>＋各種バック（売上50％制orスライド制）</span>
             </div>

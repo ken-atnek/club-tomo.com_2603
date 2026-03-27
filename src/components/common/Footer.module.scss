@@ -51,6 +51,9 @@
             address {
                 @include Sans;
                 font-size: FZ(20);
+                @include sp {
+                    font-size: FZ(12);
+                }
             }
             .linkMap {
                 font-size: inherit;
@@ -60,6 +63,9 @@
                 width: 11rem;
                 text-align: center;
                 margin-top: 3px;
+                @include sp {
+                    display: none;
+                }
                 span {
                     position: relative;
                     @include Futura;
@@ -84,6 +90,9 @@
             display: flex;
             @include Sans;
             margin-top: 2rem;
+            @include sp {
+                display: none;
+            }
             a {
                 letter-spacing: 0.25em;
                 font-size: FZ(20);
