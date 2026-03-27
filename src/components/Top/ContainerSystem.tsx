@@ -70,7 +70,7 @@ export default function ContainerSystem() {
           </div>
         </div>
         <div className={styles.boxFoodMenu}>
-          <h3>free drink</h3>
+          <h3>food menu</h3>
           <dl>
             <div>
               <dt>・フルーツ盛り</dt>

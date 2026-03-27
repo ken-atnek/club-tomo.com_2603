@@ -15,14 +15,14 @@ import '@splidejs/react-splide/css';
 import styles from '@/styles/PageTop.module.scss';
 
 const rooms = [
-  { name: 'フロア名', image: '/images/room/photo_004.webp' },
-  { name: 'フロア名', image: '/images/room/photo_005.webp' },
-  { name: 'フロア名', image: '/images/room/photo_006.webp' },
-  { name: 'フロア名', image: '/images/room/photo_007.webp' },
+  { name: 'Lounge Room', image: '/images/room/photo_004.webp' },
+  { name: 'Lounge Room', image: '/images/room/photo_005.webp' },
+  { name: 'Lounge Room', image: '/images/room/photo_006.webp' },
+  { name: 'Lounge Room', image: '/images/room/photo_007.webp' },
   { name: '智の間', image: '/images/room/photo_003.webp' },
-  { name: 'VIP I', image: '/images/room/photo_001.webp' },
-  { name: 'VIP II', image: '/images/room/photo_002.webp' },
-  { name: 'VIP III', image: '/images/room/photo_008.webp' },
+  { name: 'VIP Room', image: '/images/room/photo_001.webp' },
+  { name: 'VIP Room', image: '/images/room/photo_002.webp' },
+  { name: 'VIP Room', image: '/images/room/photo_008.webp' },
 ];
 
 export default function ContainerRoomInfo() {

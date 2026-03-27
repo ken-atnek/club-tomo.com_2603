@@ -386,7 +386,7 @@
                 padding-right: 10vw;
                 padding-left: 8vw;
                 cursor: pointer;
-                letter-spacing: 0.25em;
+                letter-spacing: 0.04em;
                 transition:
                     color 0.2s,
                     border-color 0.2s;
@@ -565,8 +565,8 @@
             right: 0;
             width: 25.3vw;
             aspect-ratio: 346/481;
-            background: url("/images/recruit-object-bottom.webp") no-repeat center
-                center / contain;
+            background: url("/images/recruit-object-bottom.webp") no-repeat
+                center center / contain;
         }
         h2 {
             font-size: FZ(14);

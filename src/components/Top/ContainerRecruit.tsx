@@ -50,7 +50,7 @@ export default function ContainerRecruit() {
               <span>
                 本入店時給： <br className="sp" />
                 最低
-                <em>30,000</em>円〜最大<em>8,000</em>円
+                <em>3,000</em>円〜最大<em>8,000</em>円
               </span>
               <span>＋各種バック（売上50％制orスライド制）</span>
             </div>
@@ -78,7 +78,10 @@ export default function ContainerRecruit() {
           >
             <span>詳しくはこちら</span>
           </ExternalLink>
-          <ExternalLink className={styles.linkLine} href="#">
+          <ExternalLink
+            className={styles.linkLine}
+            href="https://line.me/ti/p/q49O65UZ3_#~"
+          >
             <span>LINE問い合わせ</span>
           </ExternalLink>
         </nav>
