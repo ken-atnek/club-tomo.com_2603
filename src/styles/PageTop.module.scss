@@ -829,7 +829,10 @@
                 width: 11rem;
                 text-align: center;
                 margin-top: 3px;
-                padding: 2vw;
+                padding: 0.3em;
+                @include sp {
+                    padding: 2vw;
+                }
                 span {
                     position: relative;
                     @include Futura;
